@@ -22,7 +22,6 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   for (var i = 0; i < cart.length; i++) {
-    let arr = [];
     arr.push(`${cart[i].itemName} at $${cart[i].itemPrice}`);
   }
   return (`In your cart, you have ${arr.join(', ' )}.`);
