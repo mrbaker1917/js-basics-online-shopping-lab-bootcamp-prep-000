@@ -22,6 +22,7 @@ function viewCart() {
   }
   for (var i = 0; i < cart.length; i++) {
     let arr = [];
+    arr.push(cart[i].itemName, cart[i].itemPrice);
     return (`In your cart, you have `);
   }
 }
